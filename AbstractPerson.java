@@ -8,6 +8,6 @@ public abstract class AbstractPerson {
 	// 性別に応じて、標準出力に指定のメッセージを出力
 	// メッセージを出力するインスタンスメソッド（クラスオブジェクトに紐づけられたメソッド）speakを呼び出す
 	public void speak() {
-		System.out.println("I'am a" + getGender());
+		System.out.println("I'am a " + getGender());
 	}
 }
